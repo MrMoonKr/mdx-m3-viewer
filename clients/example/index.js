@@ -43,7 +43,7 @@ function pathSolver(src) {
 }
 
 // Load our MDX model!
-let modelPromise = viewer.load('SmileyGW_004.mdx', pathSolver);
+let modelPromise = viewer.load('Human/Arthas/Arthas.mdx', pathSolver);
 
 modelPromise.then((model) => {
   // The promise can return undefined if something went wrong!
